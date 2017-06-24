@@ -1,0 +1,20 @@
+{
+  "name": "spawn-command-promise",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "sliv <sliv.mbp@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "prepare": "npm run clean && npm run build"
+  },
+  "peerDependencies": {
+    "@types/node": "^8.0.2"
+  }
+}
